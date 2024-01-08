@@ -718,6 +718,10 @@ section {
   padding: 0;
 }
 
+.about .full-width-div {
+  width: 100vw;
+}
+
 .about .content ul li {
   padding: 0 0 15px 26px;
   position: relative;
