@@ -22,6 +22,7 @@
   --color-default: #2b180d;
   --color-primary: #56b8e6;
   --color-secondary: #1b2f45;
+  --color-bg: #2B3395;
 }
 
 /* Smooth scroll behavior */
@@ -245,7 +246,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: rgba(0,0,0, 0.8);
   padding: 12px 0;
 }
 
@@ -506,8 +507,8 @@ section {
   .hero:after {
     position: absolute;
     content: "";
-    width: 50%;
-    background: var(--color-secondary);
+    width: 100%;
+    background: var(--color-bg);
     top: 0;
     bottom: 0;
   }
@@ -577,7 +578,7 @@ section {
 }
 
 .hero .btn-get-started:hover {
-  background: rgba(86, 184, 230, 0.8);
+  background: rgba(0,0,0, 0.8);
 }
 
 .hero .btn-watch-video {
